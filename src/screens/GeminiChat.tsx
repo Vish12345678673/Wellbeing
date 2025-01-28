@@ -18,7 +18,7 @@ const GeminiChat: React.FC = () => {
   const [isSpeaking, setIsSpeaking] = useState<boolean>(false);
   const [showStopIcon, setShowStopIcon] = useState<boolean>(true);
 
-  const API_KEY: string = "AIzaSyBkU2uAmmyl2Li7zj4pKVDCmMzR8EA2aw4";
+  const API_KEY: string = "AIzaSyCjg5AX_PehGrKTsR97Uxo9YhgfLH28FSU";
 
   useEffect(() => {
     const startChat = async () => {
@@ -88,7 +88,7 @@ const GeminiChat: React.FC = () => {
   );
 
   return (
-    <ImageBackground source={require('./glow2.gif')} style={styles.backgroundImage}>
+    <ImageBackground source={require('./icegif.gif')} style={styles.backgroundImage}>
       <View style={styles.container}>
         <FlatList
           data={messages}
